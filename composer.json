@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Encrypt\\": "modules/encrypt/src"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^7.1"
+  }
+}
