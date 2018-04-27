@@ -4,7 +4,7 @@ namespace Encrypt;
 
 use Encrypt\Encryptable;
 
-class EncryptionClass implements Encryptable {
+class OpenSSL implements Encryptable {
 
     private $key;
     private $cipher;
